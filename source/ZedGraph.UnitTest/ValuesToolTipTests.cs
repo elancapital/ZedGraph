@@ -8,12 +8,12 @@
 
     using NUnit.Framework;
 
-    using Ploeh.Albedo;
-    using Ploeh.AutoFixture;
-    using Ploeh.AutoFixture.AutoRhinoMock;
-    using Ploeh.AutoFixture.Idioms;
+    using Albedo;
+    using AutoFixture;
+    using AutoFixture.Idioms;
 
     using Rhino.Mocks;
+    using Ploeh.AutoFixture.AutoRhinoMock;
 
     [TestFixture]
     internal class ValuesToolTipTests
